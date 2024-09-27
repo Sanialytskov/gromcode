@@ -1,0 +1,12 @@
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+span {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
