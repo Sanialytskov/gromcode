@@ -4,7 +4,6 @@ input:checked {
 
 label {
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 #special::first-letter {
