@@ -1,0 +1,19 @@
+.some-button:hover:enabled {
+    background-color: black;
+    color: white;
+}
+
+.some-button:disabled {
+    color: green;
+    background-color: orange;
+    border: 2px dashed grey;
+}
+
+a:active,
+.some-button:active {
+    border: 3px solid red;
+}
+
+a:hover {
+    font-size: 24px;
+}
