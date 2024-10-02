@@ -17,7 +17,7 @@ button:disabled {
 }
 
 .some-button:hover:enabled {
-  background-color: black;
+  background-color: grey;
   color: white;
 }
 
