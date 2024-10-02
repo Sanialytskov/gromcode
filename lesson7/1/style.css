@@ -13,7 +13,7 @@ a:hover {
 }
 
 button:disabled {
-  border: 3px dashed grey;
+  border: 2px dashed grey;
 }
 
 .some-button:hover:enabled {
@@ -26,5 +26,5 @@ button:disabled {
 }
 
 .confirm-checkbox:checked {
-  margin-left: 16px;
+  margin-left: 20px;
 }
