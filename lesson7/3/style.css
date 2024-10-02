@@ -5,7 +5,7 @@
 }
 
 .theory::first-line {
-  font-style: 24px;
+  font-size: 24px;
 }
 
 .theory::selection {
