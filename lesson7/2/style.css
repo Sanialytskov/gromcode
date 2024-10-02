@@ -12,10 +12,6 @@ li:last-child > span {
   color: white;
 }
 
-li:nth-last-child(1) {
-  margin-left: 16px;
-}
-
 li:nth-child(even) > span {
   margin-left: 16px;
 }
