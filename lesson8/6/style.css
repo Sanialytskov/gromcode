@@ -1,0 +1,23 @@
+.rectagle1 {
+  padding: 50px;
+  background-color: pink;
+  border: 2px solid black;
+}
+
+.rectagle {
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.rectagle2 {
+  background-color: green;
+}
+
+.rectagle3 {
+  background-color: yellow;
+}
+
+.rectagle4 {
+  background-color: blue;
+  margin: 50px;
+}
