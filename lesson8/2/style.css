@@ -1,0 +1,15 @@
+body {
+    font-size: 24px;
+}
+
+.rectagle {
+    width: 420px;
+    height: 140px;
+    padding: 20px;
+    background-color: bisque;
+    border-left: 20px dashed aqua;
+    border-right: 20px solid chartreuse;
+    border-bottom: 10px dashed burlywood;
+    border-top: 10px solid firebrick;
+    margin: 50px 100px 50px 100px;
+}
