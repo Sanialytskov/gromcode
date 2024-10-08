@@ -1,0 +1,19 @@
+.horizontal {
+  display: flex;
+  margin: 16px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid burlywood;
+}
+
+.vertical {
+  display: flex;
+  margin: 16px;
+  flex-direction: column;
+  margin: 16px;
+  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid burlywood;
+}
