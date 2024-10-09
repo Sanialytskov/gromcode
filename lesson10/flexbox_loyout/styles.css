@@ -19,10 +19,11 @@
   margin: 0px;
   display: flex;
   list-style-type: none;
+  padding: 0;
 }
 
 .navigation_item {
-  margin-right: 10px;
+  margin-right: 16px;
 }
 
 .footer_text {
@@ -51,4 +52,24 @@
 .news {
   width: 200px;
   background-color: grey;
+}
+
+.navigation1 {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.newss {
+  display: flex;
+  justify-content: center;
+}
+
+.el {
+  margin-left: 16px;
+}
+
+.ol {
+  margin-bottom: 16px;
+  margin-left: 16px;
 }
