@@ -1,0 +1,23 @@
+.articles {
+  display: flex;
+}
+
+.ol {
+  width: 150px;
+  height: 100px;
+  background-color: beige;
+  margin: 16px;
+}
+
+.cropped {
+  overflow: hidden;
+}
+
+.both-scrolls {
+  overflow: scroll;
+}
+
+.vertical-scroll {
+  overflow-y: scroll;
+  cursor: all-scroll;
+}
