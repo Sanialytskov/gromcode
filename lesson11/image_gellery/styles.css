@@ -1,0 +1,6 @@
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+    /* расстояние между изображениями */
+}
