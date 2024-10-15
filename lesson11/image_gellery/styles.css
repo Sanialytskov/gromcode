@@ -2,5 +2,10 @@
     display: flex;
     overflow-x: auto;
     gap: 8px;
+    cursor: all-scroll;
     /* расстояние между изображениями */
+}
+
+.thumb {
+    padding: 8px;
 }
