@@ -1,17 +1,14 @@
 .gallery {
     display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .image {
-    margin: 16px;
-    height: 198px;
-    width: 198px;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
     background-position: center;
+    margin: 16px;
     border: 1px dotted grey;
-}
-
-.ol {
-    background-size: 75%;
 }
