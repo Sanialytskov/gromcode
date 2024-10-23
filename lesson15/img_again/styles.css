@@ -1,0 +1,35 @@
+.image-container {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-button {
+    position: absolute;
+    top: calc(50% - 25px);
+    /* Центрування по вертикалі */
+    left: calc(50% - 100px);
+    /* Центрування по горизонталі */
+    width: 200px;
+    height: 50px;
+    background-color: bisque;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.image-button:hover {
+    opacity: 1;
+}
