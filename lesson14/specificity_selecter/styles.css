@@ -1,15 +1,11 @@
 .rectangle {
-  background-color: aqua;
+  background-color: blueviolet;
   width: 100px;
   height: 100px;
 }
 
-.rectangle:hover {
-  background-color: blueviolet;
-}
-
 .text {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 24px;
 }
 
