@@ -1,14 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 .gallery {
-    display: flex;
-    gap: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 .image {
-    width: 200px;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 16px;
-    border: 1px dotted grey;
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 16px;
+  border: 1px dotted grey;
 }
