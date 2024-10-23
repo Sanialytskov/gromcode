@@ -1,0 +1,6 @@
+iframe {
+    display: block;
+    margin: 100px auto;
+    max-height: 400px;
+    max-width: 500px;
+}
