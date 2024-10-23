@@ -4,7 +4,6 @@
 
 .gallery {
   display: flex;
-  gap: 16px;
 }
 
 .image {
