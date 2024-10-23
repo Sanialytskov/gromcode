@@ -1,0 +1,10 @@
+body {
+    width: 500px;
+    /* Ширина елемента */
+    height: 500px;
+    /* Висота елемента */
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg');
+    /* Шлях до вашого зображення */
+    background-repeat: repeat;
+    /* Повторення зображення по горизонталі та вертикалі */
+}
