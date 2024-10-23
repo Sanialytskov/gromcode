@@ -1,0 +1,22 @@
+.rectangle {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+
+.rectangle:hover {
+  background-color: blueviolet;
+}
+
+.text {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.new::first-letter {
+  color: green;
+}
+
+.new {
+  color: grey;
+}
