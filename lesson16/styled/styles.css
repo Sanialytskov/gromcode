@@ -1,3 +1,7 @@
+body {
+    margin-top: 16px;
+}
+
 .checkbox input[type='checkbox'] {
     visibility: hidden;
     width: 0;
