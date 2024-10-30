@@ -2,23 +2,10 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0px 8px;
-}
-
 form {
   margin: 32px;
 }
 
-.form-group {
-  margin-bottom: 8px;
-}
-
-input[type='checkbox'],
-input[type='radio'] {
-  margin-right: 1px;
-}
-
-.languages {
-  flex-direction: row;
+div {
+  margin: 8px;
 }
