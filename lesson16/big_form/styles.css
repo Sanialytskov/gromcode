@@ -1,24 +1,24 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0px 8px;
+    margin: 0px 8px;
 }
 
 form {
-  margin: 32px;
+    margin: 32px;
 }
 
 .form-group {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 input[type='checkbox'],
 input[type='radio'] {
-  margin-right: 4px;
+    margin-right: 3px;
 }
 
 .languages {
-  flex-direction: row;
+    flex-direction: row;
 }
