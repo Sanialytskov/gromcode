@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+table {
+    border: 1px solid #000;
+    /* Рамка навколо таблиці */
+    border-collapse: collapse;
+    /* Злиття кордонів клітинок */
+    margin: 16px;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #000;
+    /* Додавання межі до всіх клітинок */
+}
+
+
+/* Чорні та білі клітинки шахової дошки */
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: #000;
+    color: #fff;
+}
+
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* Клітинки з номерами та літерами по периметру */
+
+td:first-child,
+td:last-child,
+tr:first-child td,
+tr:last-child td {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    /* Трохи збільшений шрифт для номерів і букв */
+}
+
+#ul {
+    background-color: #fff;
+    color: #000;
+}
