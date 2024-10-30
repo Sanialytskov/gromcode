@@ -10,9 +10,7 @@ body {
 
 table {
     border: 1px solid #000;
-    /* Рамка навколо таблиці */
     border-collapse: collapse;
-    /* Злиття кордонів клітинок */
     margin: 16px;
 }
 
@@ -23,11 +21,7 @@ td {
     vertical-align: middle;
     font-size: 16px;
     border: 1px solid #000;
-    /* Додавання межі до всіх клітинок */
 }
-
-
-/* Чорні та білі клітинки шахової дошки */
 
 tr:nth-child(odd) td:nth-child(even),
 tr:nth-child(even) td:nth-child(odd) {
@@ -41,17 +35,12 @@ tr:nth-child(even) td:nth-child(even) {
     color: #000;
 }
 
-
-/* Клітинки з номерами та літерами по периметру */
-
 td:first-child,
 td:last-child,
 tr:first-child td,
 tr:last-child td {
     background-color: transparent;
     border: none;
-    font-size: 18px;
-    /* Трохи збільшений шрифт для номерів і букв */
 }
 
 #ul {
