@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Стилі для спінера */
+
+.spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Стилі для тексту спінера */
+
+.spinner-text {
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    animation: blinking 2s linear infinite;
+}
+
+
+/* Анімація "blinking" */
+
+@keyframes blinking {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+
+/* Стилі для чорного квадрата */
+
+.rect {
+    width: 10px;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    position: relative;
+    animation: moving 2s linear infinite alternate, blinking 2s linear infinite;
+}
+
+
+/* Анімація "moving" */
+
+@keyframes moving {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(70px);
+    }
+}
