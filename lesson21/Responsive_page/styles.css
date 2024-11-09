@@ -26,8 +26,7 @@ body {
 .main {
   flex: 1;
   display: flex;
-  padding: 0.5em;
-  gap: 1em;
+  
 }
 
 .navigation,
@@ -92,8 +91,12 @@ margin-bottom: 0.5em;
 
 /* CSS Units */
 .css-units {
-  font-size: 1.125vw;
+  font-size: 1.125em;
   color: #8b0000;
   font-weight: 700;
   background-color: #e5e5e5;
+}
+ 
+.nav-list {
+  padding: 0;
 }
