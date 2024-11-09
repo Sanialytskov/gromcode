@@ -44,7 +44,7 @@ body {
 .section {
 
   font-size: 1.125rem;
-  line-height: 1.75em;
+  
   width: 60%;
 }
 
@@ -99,4 +99,8 @@ margin-bottom: 0.5em;
  
 .nav-list {
   padding: 0;
+}
+
+.units-list {
+  line-height: 1.75em;
 }
