@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+    height: 3em;
+    padding: 1em;
+    background-color: #eee;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-button {
+
+  border: none;
+  font-size: 2em;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+.nav-list-item {
+  background-color: #808080;
+  padding: 0.5em;
+  text-decoration: none;
+  margin: 0.5em;
+  white-space: nowrap;    /* Забороняє перенесення тексту на новий рядок */
+  overflow: hidden;       /* Приховує текст, який виходить за межі контейнера */
+  text-overflow: ellipsis;
+  color: #fff;
+}
+.nav-list {  
+  padding: 0.5em;
+  list-style-type:  none;
+}
+
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+
+}
+
+.nav-list-link {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .icon-button {
+    display: none;
+  }
+}
