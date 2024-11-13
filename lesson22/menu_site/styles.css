@@ -41,10 +41,12 @@ body {
 .nav-list {  
   padding: 0.5em;
   list-style-type:  none;
+  margin: 0;
 }
 
 .navigation {
   width: 20%;
+
 
 }
 
