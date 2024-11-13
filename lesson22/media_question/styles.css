@@ -1,3 +1,7 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .navigation {
   background-color: #ff7f50;
   min-height: 200px;
@@ -20,8 +24,8 @@
 }
 
 span {
-  background-color: #fff;
-  padding: 4px;
+  background-color: #faebd7;
+  padding: 8px;
   border-radius: 4px;
   text-transform: lowercase;
   margin: auto;
@@ -30,7 +34,7 @@ span {
 @media screen and (min-width:600px) {
   .products {
     display: flex;
-    flex-grow: 2;
+    flex: 1 1 33.333%;
   }
 }
 @media screen and (min-width:900px) {
