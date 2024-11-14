@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  /* Основні налаштування шрифтів та кольорів */
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .header {
+    height: 3em;
+    background-color: #eee;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .icon-button i {
+    font-size: 2em;
+  }
+  
+  /* Навігація */
+  .navigation {
+    width: 20%;
+    padding: 0.5em;
+    margin-top: 18px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list-item {
+    margin-bottom: 0.5em;
+    white-space: nowrap;    /* Забороняє перенесення тексту на новий рядок */
+    overflow: hidden;       /* Приховує текст, який виходить за межі контейнера */
+    text-overflow: ellipsis;
+  }
+  
+  .nav-list-link {
+    display: block;
+    color: #fff;
+    background-color: #808080;
+    text-decoration: none;
+    padding: 0.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Адаптивність */
+  @media (max-width: 600px) {
+    .header .icon-button {
+      display: block;
+    }
+    .navigation {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .header .icon-button {
+      display: none;
+    }
+  }
