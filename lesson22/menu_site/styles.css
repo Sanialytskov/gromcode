@@ -39,9 +39,9 @@ body {
   color: #fff;
 }
 .nav-list {  
-  padding: 0.5em 0 0.5em 0;
+  padding: 0.5em;
   list-style-type:  none;
-  margin: 0.25em;
+
   padding-left: 0;
     margin-left: 0;
 }
