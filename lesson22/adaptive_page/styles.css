@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: #555;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background: linear-gradient(60deg, red, orange);
+  color: #fff;
+}
+
+.header__image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation,
+.section,
+.news {
+  padding: 0.5em;
+}
+
+.navigation {
+  flex: 1 1 100%;
+  background-color: #f7f7f7;
+}
+
+.section {
+  flex: 1 1 100%;
+  font-size: 1.25rem;
+}
+
+.news {
+  flex: 1 1 100%;
+}
+
+/* Footer */
+.footer {
+  background-color: #e5e5e5;
+  padding: 0.5em;
+  text-align: center;
+}
+
+/* Список в навігації */
+.nav-list {
+  padding: 0;
+}
+
+.nav-list-item {
+  list-style-type: none;
+  height: 2em;
+  background-color: grey;
+  line-height: 2em;
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+.nav-list-link {
+  width: 100%;
+  display: inline-block;
+  padding: 0 0.5em;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Заголовок секції */
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+/* CSS Units */
+.css-units {
+  font-size: 1.125em;
+  color: #8b0000;
+  font-weight: 700;
+  background-color: #e5e5e5;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+/* Адаптивність */
+@media (min-width: 600px) {
+  .header__image {
+    content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/big.png);
+  }
+
+  .navigation {
+    flex: 1 1 20%;
+  }
+
+  .section {
+    flex: 1 1 60%;
+  }
+
+  .news {
+    flex: 1 1 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main {
+    flex-wrap: nowrap;
+  }
+}
