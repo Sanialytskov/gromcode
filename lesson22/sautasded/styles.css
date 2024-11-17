@@ -24,6 +24,19 @@ html {
   background-color: #eee;
 }
 
+.icon-button {
+
+  border: none;
+  font-size: 2em;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+@media screen and (min-width: 600px) {
+  .icon-button {
+    display: none;
+  }
+}
 .navigation {
   display: none;
   width: 20%;
