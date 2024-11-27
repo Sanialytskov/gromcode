@@ -9,11 +9,20 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+}
+
 .square {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
   margin: 16px;
+}
+@media screen and (min-width: 600px) {
+  .square {
+    background-color: #8a2be2;
+  }
 }
 @media screen and (min-width: 600px) {
   .square {
