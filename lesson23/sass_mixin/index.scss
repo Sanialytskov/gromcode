@@ -18,8 +18,8 @@ body {
     width: 100px;
     height: 100px;
     background-color: #ff7f50;
-    margin: 16px;
-    @include for-medium-up {
+    margin: 8px;
+    @include for-extra-small {
         background-color: #8a2be2;
     }
     @include for-medium-up {
@@ -27,5 +27,11 @@ body {
     }
     @include for-large-up {
         background-color: #c47;
+    }
+}
+
+@media (orientation: landscape) {
+    .container {
+        display: block;
     }
 }
