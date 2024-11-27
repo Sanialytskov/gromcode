@@ -30,6 +30,8 @@ body {
 @media (orientation: portrait) {
     .container {
         display: block;
+    }
+    .square {
         margin: 16px;
     }
 }
