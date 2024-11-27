@@ -19,9 +19,6 @@ body {
     height: 100px;
     background-color: #ff7f50;
     margin: 8px;
-    @include for-extra-small {
-        background-color: #8a2be2;
-    }
     @include for-medium-up {
         background-color: #a61;
     }
@@ -33,5 +30,11 @@ body {
 @media (orientation: portrait) {
     .container {
         display: block;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 899px) {
+    .square {
+        background-color: #8a2be2;
     }
 }
