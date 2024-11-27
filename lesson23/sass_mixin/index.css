@@ -39,4 +39,9 @@ body {
   .square {
     background-color: #8a2be2;
   }
+}
+@media screen and (max-width: 599px) {
+  .square {
+    margin: 16px;
+  }
 }/*# sourceMappingURL=index.css.map */
