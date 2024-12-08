@@ -30,7 +30,7 @@ body {
     cursor: pointer;
     height: 100%;
     flex: 1;
-    color: black;
+    color: #fff;
 }
 
 .menu__item:hover {
@@ -56,6 +56,7 @@ body {
 .submenu__item {
     padding: 16px;
     color: #fff;
+    padding-left: 8px;
 }
 
 .submenu__item:hover {
