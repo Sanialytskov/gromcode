@@ -55,7 +55,8 @@ body {
     z-index: 1;
     top: 3em;
     &__item {
-        padding: 0 8px;
+        padding-left: 8px;
+        padding: 16px;
         &:hover {
             color: #000;
         }
