@@ -54,6 +54,9 @@ body {
   z-index: 1;
   top: 3em;
 }
+.submenu__item:nth-child(3) {
+  padding: 14px 8px;
+}
 .submenu__item {
   padding: 15px 8px;
 }
