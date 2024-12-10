@@ -55,8 +55,8 @@ body {
   top: 3em;
 }
 .submenu__item {
-  padding-left: 8px;
-  padding: 16px;
+  padding-left: 6px;
+  padding: 14px;
 }
 .submenu__item:hover {
   color: #000;
