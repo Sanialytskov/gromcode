@@ -42,6 +42,7 @@ body {
   font-size: 20px;
   height: 24px;
   margin-bottom: 31px;
+  margin-top: -4px;
 }
 
 .price-card__price {
@@ -79,6 +80,11 @@ body {
 .list__item {
   display: flex;
   padding: 16px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
 }
 
 li:nth-child(odd) {
@@ -124,7 +130,7 @@ img {
 .ribbon {
   position: absolute;
   top: 25px;
-  right: -35px;
+  right: -32px;
   background-color: #dc3f45;
   color: white;
   text-transform: uppercase;
