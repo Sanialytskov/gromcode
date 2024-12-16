@@ -40,9 +40,8 @@ body {
 .subheader {
   font-weight: 300;
   font-size: 20px;
-  height: 24px;
+  line-height: 24px;
   margin-bottom: 31px;
-  margin-top: -4px;
 }
 
 .price-card__price {
