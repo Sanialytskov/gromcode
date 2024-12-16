@@ -25,7 +25,7 @@ body {
 }
 
 .price-card__title {
-  margin-top: 32px;
+  margin-top: 33px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -128,7 +128,7 @@ img {
 
 .ribbon {
   position: absolute;
-  top: 25px;
+  top: 27px;
   right: -32px;
   background-color: #dc3f45;
   color: white;
@@ -139,7 +139,7 @@ img {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
-  line-height: 17.07px;
+  line-height: 17px;
   text-align: left;
 }
 
