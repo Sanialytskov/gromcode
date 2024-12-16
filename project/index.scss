@@ -9,23 +9,23 @@ body {
     font-family: Montserrat;
 }
 
-.services {
+.Price_tables {
     display: flex;
     justify-content: center;
-    margin: 115px;
+    align-items: center;
+    height: 100vh;
 }
 
-.pillar {
+.price-card {
     position: relative;
     color: #fff;
     background-color: #334247;
     max-width: 380px;
     max-height: 770px;
     overflow: hidden;
-    margin-right: 18px;
 }
 
-.header {
+.price-card__title {
     margin-top: 32px;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ body {
     margin-bottom: 31px;
 }
 
-.price {
+.price-card__price {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ body {
     background-color: #ec632a;
 }
 
-.description {
+.price-card__description {
     margin: 40px 26px;
     text-align: center;
     font-family: Montserrat;
@@ -97,7 +97,7 @@ img {
     height: 13px;
 }
 
-.button {
+.price-card__order-btn {
     display: flex;
     font-family: Montserrat;
     font-size: 14px;
@@ -126,7 +126,7 @@ img {
     position: absolute;
     top: 25px;
     right: -35px;
-    background-color: #e74c3c;
+    background-color: #dc3f45;
     color: white;
     text-transform: uppercase;
     padding: 5px 40px;
@@ -137,4 +137,8 @@ img {
     font-weight: 700;
     line-height: 17.07px;
     text-align: left;
+}
+
+.price-card:nth-child(2) {
+    margin: 0 16px;
 }
